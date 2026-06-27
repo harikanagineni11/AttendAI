@@ -4,7 +4,7 @@ import io
 
 @st.dialog("Share Class Link")
 def share_subject_dialog(sub_name,sub_code):
-    app_domain="attendai-main.streamlit.app"
+    app_domain="attendaii.streamlit.app"
     join_url=f"{app_domain}/?join-code={sub_code}"
 
     st.subheader("Scan to Join")
